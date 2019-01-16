@@ -30,3 +30,65 @@
     transform: rotate(360deg);
   }
 }
+
+
+.same {
+  font-size: 42px;
+  /*height: 800px;*/
+  height: 100%;
+}
+.typing {
+  text-align: right;
+  height: 16%;
+  margin: 5px;
+  padding-right: 10px;
+  border: 2px solid #bbbbbb;
+  display: flex;
+  align-items: center;        /*수직정렬*/
+  justify-content: flex-end; /*수평정렬*/
+}
+.main {
+  margin: 5px;
+  /*height: 80%;*/
+  background-color: #eeeeee;
+  height: 84%;
+}
+.flex {
+  display: flex;
+  height: 20%;
+
+
+}
+.first_three {
+  width: 75%;
+  text-align: center;
+  text-color: #ffffff;
+  border: 0.2px solid #eeeeee;
+  background-color: #dddddd;
+}
+.first_one {
+  width: 25%;
+  border: 0.2px solid #dddddd;
+  text-align: center;
+
+}
+.rest_one {
+  width: 25%;
+  border: 0.2px solid #dddddd;
+  text-align: center;
+}
+.rest_two {
+  width: 50%;
+  border: 0.2px solid #dddddd;
+  text-align: center;
+  border-radius: 30px;
+}
+.flex > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex > div:hover{
+  background-color: bisque;
+  cursor: pointer;
+}
